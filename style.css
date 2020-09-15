@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-image: url(images/opera.jpg);
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 18%;
+  margin-bottom: -10%;
+}
+
+header h1 {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 300%;
+  font-weight: lighter;
+}
+
+header h2 {
+  padding-top: 4%;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 200%;
+  font-weight: normal;
+  letter-spacing: 0.2em;
+}
+
+#uvod {
+  padding: 2% 5% 5% 5%;
+  background-color: whitesmoke;
+}
+
+h2 {
+  padding: 5% 0 5% 0;
+}
+
+.noviny {
+  text-align: right;
+  font-style: italic;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 3%;
+}
+
+.A {
+  background-color: white;
+  padding: 2% 5% 5% 5%;
+  min-height: 90vh;
+}
+
+.B {
+  background-color: whitesmoke;
+  padding: 2% 5% 5% 5%;
+  min-height: 90vh;
+}
+
+#pripad {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 120%;
+  padding: 5% 5% 5% 5%;
+  background-color: whitesmoke;
+  margin-bottom: 3%;
+}
+
+h3 {
+  padding-bottom: 2%;
+}
+
+.policejnizprava {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.prvni {
+  width: 200px;
+  background-color: khaki;
+}
+
+.druhy {
+  width: 600px;
+  background-color: lightcoral;
+}
+
+.button {
+  width: fit-content;
+  display: inline-block;
+  color: whitesmoke;
+  background-color: darkred;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 25px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  vertical-align: middle;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 400px;
+  padding: 0 0 3% 3%;
+  float: right;
+}
